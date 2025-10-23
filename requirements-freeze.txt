@@ -70,6 +70,8 @@ litellm==1.72.6
 literalai==0.1.201
 loguru==0.7.3
 lxml==6.0.0
+matplotlib==3.10.3
+matplotlib-inline==0.1.7
 magika==0.6.2
 mammoth==1.9.1
 markdownify==1.1.0
@@ -151,6 +153,7 @@ pluggy==1.6.0
 posthog==3.25.0
 propcache==0.3.1
 protobuf==5.29.5
+plotly==6.2.0
 psutil==7.0.0
 pycparser==2.22
 pydantic==2.11.5
@@ -187,6 +190,7 @@ starlette==0.41.3
 strictyaml==1.7.3
 sympy==1.14.0
 syncer==2.0.3
+tavily-python==0.7.12
 tenacity==9.1.2
 tiktoken==0.9.0
 tokenizers==0.21.1
