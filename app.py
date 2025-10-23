@@ -80,7 +80,7 @@ async def chat_profile():
     """
     llm_models = get_llm_models()
     # get a list of model names from llm_models
-    model_list = [f"{model["model_deployment"]}--{model["description"]}" for model in llm_models]
+    model_list = [f"{m['model_deployment']}--{m['description']}" for m in llm_models]
     profiles = []
 
     for item in model_list:
