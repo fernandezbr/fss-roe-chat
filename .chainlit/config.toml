@@ -23,7 +23,7 @@ allow_origins = ["*"]
 unsafe_allow_html = false
 
 # Process and display mathematical expressions. This can clash with "$" characters in messages.
-latex = false
+latex = true
 
 # Automatically tag threads with the current chat profile (if a chat profile is used)
 auto_tag_thread = true
@@ -44,8 +44,8 @@ edit_message = true
     #    accept = { "application/octet-stream" = [".xyz", ".pdb"] }
     # Note: Using "*/*" is not recommended as it may cause browser warnings
     accept = ["image/jpeg", "image/png", "image/bmp", "text/plain", "text/csv", "application/pdf", "application/json", "application/xml", "application/rtf", "application/vnd.ms-excel", "application/msword", "application/vnd.oasis.opendocument.text", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.ms-powerpoint", "application/vnd.openxmlformats-officedocument.presentationml.presentation"]
-    max_files = 5
-    max_size_mb = 20
+    max_files = 10
+    max_size_mb = 200
 
 [features.audio]
     # Sample rate of the audio
@@ -57,7 +57,7 @@ name = "LikhAI Work"
 
 show_readme_button = true
 
-# default_theme = "dark"
+# default_theme = "light"
 
 layout = "wide"
 
