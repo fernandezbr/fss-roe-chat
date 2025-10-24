@@ -1,4 +1,4 @@
-chainlit==2.5.5
+chainlit
 python-dotenv==1.1.0
 azure-ai-projects==1.0.0b12
 azure-identity==1.23.1
